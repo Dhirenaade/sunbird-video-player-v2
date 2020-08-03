@@ -1,8 +1,8 @@
-# Github action configuration build and pack pdf library
+# Github action configuration build and pack video library
 # Author: Rahul Shukla <rahul.shukla@ilimi.in>
 
 
-name: Sunbird-PDF-Player
+name: Sunbird-Video-Player
 
 # Trigger the workflow on push or pull request
 on: [push, pull_request]
@@ -24,19 +24,19 @@ jobs:
       run: |
         (npm install)
 
-    - name: Build pdf player library
+    - name: Build video player library
       run: |
         (npm run build)
 
-    - name: Package pdf player library 
+    - name: Package video player library 
       run: |
-        (cd dist/pdf-player-v2 && npm pack)
+        (cd dist/video-player-v2 && npm pack)
     
     - name: Library artifact generation
       uses: actions/upload-artifact@v1
       with:
         name: Library generation
-        path: dist/pdf-player-v2
+        path: dist/video-player-v2
 
       env:
         CI: true
