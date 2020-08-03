@@ -11,7 +11,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
   
 
-This library provides an embeddable PDF viewer component which internally usages Pdf Js.
+This library provides an embeddable video viewer component 
 
   
 
@@ -33,9 +33,9 @@ npm install
 
 The build artifacts will be stored in the dist/video-player-v2.
 
-### Using the Sunbird-PDF-Player for development
+### Using the Sunbird-video-Player for development
 
-    ng serve [will deploy the pdf player demo app http://localhost:4000]
+    ng serve [will deploy the video player demo app http://localhost:4000]
 
 Directory Structure : 
  - video-player-v2. [ Sunbird video player library ]
@@ -67,7 +67,7 @@ Import the NgModule for each component you want to use:
     export class TestAppModule { }
 
  
-# How to use pdf player
+# How to use video player
 
 In your component template add below placeholder 
 
