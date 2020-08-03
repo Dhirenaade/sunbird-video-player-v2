@@ -1,3 +1,4 @@
+![Sunbird-Video-Player](https://github.com/rahulshukla/sunbird-video-player-v2/workflows/Sunbird-Video-Player/badge.svg)
 
 # SunbirdVideoPlayer
 
